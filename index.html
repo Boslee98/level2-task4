@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login System</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="#create-account-form" id="create-account-link">Create one now!</a></p>
+    <div id="create-account-section" style="display: none;">
+        <h2>Create an Account</h2>
+        <form id="create-account-form">
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username"><br><br>
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password"><br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password"><br><br>
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
